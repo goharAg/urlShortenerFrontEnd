@@ -1,0 +1,83 @@
+.right {
+  display: table-cell;
+  width: 50%;
+  height: 95vh;
+}
+
+#hDiv {
+  width: 70%;
+  height: 10%;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 45%;
+}
+
+#hDiv h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#regDiv {
+  position: fixed;
+  width: 25%;
+  height: 50%;
+  left: 30%;
+  top: 15%;
+  border: 1px solid #4cbb17;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#regDiv input {
+  display: block;
+  background: #ffffff;
+  border: none;
+  border-bottom: 2px solid #4cbb17;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  height: 5vh;
+  width: 70%;
+  line-height: 16px;
+  margin-bottom: 2%;
+}
+#regDiv input:focus {
+  outline: none;
+}
+#regDiv input.ng-invalid.ng-touched {
+  border-bottom: 2px solid red;
+}
+#regDiv input.ng-valid.ng-touched {
+  border-bottom: 2px solid green;
+}
+#regDiv input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #4cbb17;
+  opacity: 1; /* Firefox */
+}
+
+#regDiv input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4cbb17;
+}
+
+#regDiv input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #4cbb17;
+}
+#regDiv p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 200%;
+  color: #4cbb17;
+}
+
+#regDiv button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 80px;
+  border: 2px solid #4cbb17;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #4cbb17;
+  padding: 7px 0;
+  background: transparent;
+}
